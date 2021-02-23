@@ -1,0 +1,17 @@
+[module/networkspeedup]
+type = internal/network
+interface = wlp6s0
+label-connected = "%upspeed:7%"
+format-connected = <label-connected>
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.success}
+format-connected-font=3
+
+[module/networkspeeddown]
+type = internal/network
+interface = wlp6s0
+label-connected = "%downspeed:7%"
+format-connected = <label-connected>
+format-connected-prefix = " "
+format-connected-font=3
+format-connected-prefix-foreground = ${colors.warning}

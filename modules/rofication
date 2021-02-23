@@ -1,0 +1,6 @@
+[module/rofication]
+type = custom/script
+interval = 1
+format = <label>
+exec = /usr/bin/rofication-status
+click-left = /usr/bin/rofication-gui

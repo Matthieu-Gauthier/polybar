@@ -1,0 +1,14 @@
+[module/sep]
+type = custom/text
+content = 
+content-foreground = ${colors.background}
+content-padding = 1
+content-font = 3
+
+[module/sepi3]
+type = custom/text
+content = 
+content-foreground = ${colors.background}
+content-padding-left = 5
+content-padding-right = 2
+content-font = 3

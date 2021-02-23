@@ -1,0 +1,40 @@
+[module/i3]
+type = internal/i3
+pin-workspaces = true
+strip-wsnumbers = true
+index-sort = true
+
+format = <label-state> <label-mode>
+
+label-dimmed-underline = ${colors.alert}
+
+;On editing mode (resize for ex)
+label-mode = %mode%
+label-mode-background = ${colors.alert}
+label-mode-underline = 
+label-mode-padding = 1
+label-mode-font = 2
+
+label-focused = %name%
+label-focused-background = ${colors.background-alt}
+label-focused-foreground = ${colors.alert}
+label-focused-underline = ${colors.alert}
+label-focused-padding = 1
+label-focused-font = 3
+
+label-unfocused = %name%
+label-unfocused-foreground = ${colors.foreground}
+label-unfocused-padding = 1
+label-unfocused-font = 3
+
+label-visible = %name%
+label-visible-background = ${colors.background}
+label-visible-underline = ${colors.alert}
+label-visible-padding = 1
+label-visible-font = 3
+
+label-urgent = %name%
+label-urgent-background = ${colors.background}
+label-urgent-underline = ${colors.alert}
+label-urgent-padding = 1
+label-urgent-font = 3

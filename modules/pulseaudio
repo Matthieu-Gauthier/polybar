@@ -1,0 +1,35 @@
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = <ramp-volume> <bar-volume>
+label-volume = VOL
+label-volume-foreground = ${colors.foreground}
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-foreground = ${colors.foreground}
+
+format-muted-prefix = " "
+format-muted-foreground = ${colors.foreground}
+label-muted-foreground = ${colors.alert}
+label-muted = "muted"
+label-muted-font = 2
+
+bar-volume-width = 10
+bar-volume-foreground-0 = ${colors.alert}
+bar-volume-foreground-1 = ${colors.alert}
+bar-volume-foreground-2 = ${colors.alert}
+bar-volume-foreground-3 = ${colors.alert}
+bar-volume-foreground-4 = ${colors.alert}
+bar-volume-foreground-5 = ${colors.alert}
+bar-volume-foreground-6 = ${colors.alert}
+bar-volume-gradient = false
+bar-volume-indicator = 
+bar-volume-indicator-font = 3
+bar-volume-indicator-foreground = ${colors.alert}
+bar-volume-fill = 
+bar-volume-fill-font = 3
+bar-volume-empty = 
+bar-volume-empty-font = 3
+bar-volume-empty-foreground = ${colors.foreground}

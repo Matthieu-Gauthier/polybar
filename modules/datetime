@@ -1,0 +1,16 @@
+[module/datetime]
+type = internal/date
+
+time = %H:%M
+date = %A, %B %d
+date-alt = %A, %B %d, %Y
+time-alt = %H:%M:%S
+format-prefix = " "
+format-padding = 2
+;format-underline = ${colors.alert}
+format-foreground = ${colors.foreground}
+interval = 20
+
+label = %date%, %time%
+label-font = 3
+label-foreground = ${colors.foreground}
