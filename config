@@ -39,15 +39,15 @@ success= #77dd77
 
 [bar/model]
 
-font-0 = JetBrains Mono,JetBrains Mono Medium:style=Bold,Regular:size=17;0
-font-1 = Material Design Icons:style=Regular:size=17;2
-font-2 = FontAwesome:style=Regular:size=15;0
+font-0 = JetBrains Mono,JetBrains Mono Medium:style=Bold,Regular:size=12;0
+font-1 = Material Design Icons:style=Regular:size=12;2
+font-2 = FontAwesome:style=Regular:size=12;0
 enable-ipc = true
 
 bottom = true
 
 width = 100%
-height = 50
+height = 35
 fixed-center = false
 
 background = ${colors.background}
@@ -82,7 +82,7 @@ inherit = bar/model
 monitor = DisplayPort-2
 modules-left = i3 sepi3 spotify previous playpause next
 modules-center = 
-modules-right = rofication sep cpu sep memory sep temperature sep networkspeedup networkspeeddown pulseaudio datetime
+modules-right =  sep cpu sep memory sep temperature sep networkspeedup networkspeeddown pulseaudio datetime
 
 [bar/dp3]
 inherit = bar/model
